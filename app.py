@@ -6,7 +6,7 @@ app = Flask(__name__)
  
 # ── Variables de entorno ──────────────────────────────────────────
 APP_NAME    = os.getenv('APP_NAME',    'DevOps Examen App')
-APP_VERSION = os.getenv('APP_VERSION', '1.0.0')
+APP_VERSION = os.getenv('APP_VERSION', '2.0.0')
 DB_HOST     = os.getenv('DB_HOST',     'localhost')
 DB_NAME     = os.getenv('DB_NAME',     'examendb')
 DB_USER     = os.getenv('DB_USER',     'examenuser')
